@@ -1,0 +1,28 @@
+{
+	"info": {
+		"_postman_id": "ae594bb7-3e0c-402f-af20-38caaf1039f1",
+		"name": "MainService",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetAllOrders",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8291/getAllOrders",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8291",
+					"path": [
+						"getAllOrders"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
