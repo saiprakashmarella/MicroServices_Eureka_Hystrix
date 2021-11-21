@@ -1,0 +1,20 @@
+payment:
+  username: Sai
+  password: Marella
+
+order:
+  username: Sai
+  password: Marella
+  
+spring:  application:    name: MainService
+
+server:  port: 8291
+
+eureka:
+  client:
+    register-with-eureka: TRUE
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:9190/eureka
+  instance:
+    hostname: localhost
